@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="title">
+            <h1 class="line-one">R@nd0m P@$$w0rd</h1>
+            <h1 class="line-two">Generator</h1> 
+        </div>
+
+
+        <div class="desc">
+            <p>
+                Get a complex password with one click!
+
+            </p>
+        </div>
+
+
+        <div class="inputs">
+            <div class="input-left">
+                <button class="generate-pass"><span class="generate-password">Generate password</span><span class="generate">Generate</span></button>
+            </div>
+            <div class="input-right">
+                <div  class="pass-length-input-div">
+                     Length &nbsp; <input class="pass-length-input" type="number" min="8" max="20" value="8">
+                      
+                    </div> 
+                <div>
+                     Symbols &nbsp; 
+                     <label class="switch">
+                        <input class="toggle" type="checkbox" checked>
+                        <span class="slider round"></span>
+                      </label>
+                    </div>
+                
+                
+            </div>
+        </div>
+
+        <div class="hr-div">
+            <hr class="hr">
+        </div>
+
+
+        <div class="outputs">
+
+            <div class="pass1" >
+            </div>
+            <button class="copy1">copy</button>
+            
+            <div class="pass2">   
+            </div>
+            <button class="copy2">copy</button>
+            
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
